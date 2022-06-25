@@ -1,3 +1,6 @@
+* {
+  font-family: "El Messiri", serif !important;
+}
 html {
   line-height: 1;
   -webkit-text-size-adjust: 100%;
@@ -6,7 +9,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "El Messiri", serif !important;
 }
 
 details,
@@ -3108,6 +3110,10 @@ footer {
     line-height: 2;
     margin-top: 1em;
   }
+  .header__list-item p{
+    font-weight: bold;
+    font-size: 1.2em;
+  }
   .fifth__prod-block img:first-child {
     display: flex;
     justify-content: center;
@@ -3245,6 +3251,25 @@ footer {
   .fifth {
     padding-bottom: 0px;
     padding-top: 0px;
+  }
+  .afterbefore .swiper {
+    padding: 0;
+    margin: 0;
+  }
+  .afterbefore .eassh {
+    background: none;
+    box-shadow: none;
+    position: relative;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .afterbefore .eassh img {
+    width: 300px !important;
+    min-width: 300px;
+    height: 300px;
+    min-height: 300px !important;
   }
 }
 /* how to order */
