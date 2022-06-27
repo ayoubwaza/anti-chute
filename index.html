@@ -26,10 +26,11 @@
           </h1>
           <div class="header__prod-block prod-block">
             <div class="header__block-label block-label view-mob">
-              <img alt="label" src="img/label.png" /><img alt="label" src="img/label-2.png" />
+              <img alt="label" src="img/label-green.png" width="80" height="80" />
+              <img alt="label" src="img/label-green-2.png" width="80" height="80" />
             </div>
-            <img alt="cone" class="header__prod-block-cone" src="img/cone.png" /><img alt="PACK ANTI-CHUTE"
-              class="prod-block__prod" src="img/initialize.png" />
+            <img alt="cone" class="header__prod-block-cone" src="img/cone.png" />
+            <img alt="PACK ANTI-CHUTE" class="prod-block__prod" src="img/initialize.png" />
           </div>
           <ul class="header__list">
             <li class="header__list-item">
@@ -233,9 +234,21 @@
         <div class="fourth__block-slider">
           <ul class="fourth__list bolt-slider bolt-slider--2">
             <li class="fourth__item bolt-slider__item">
+              <img alt="ingredient" src="img/argane.png" />
+              <div>
+                <p class="fourth__item-title">زيت أركان</p>
+                <p class="fourth__item-text" style="direction: rtl; line-height: 1.5">
+                  يُستخدم زيت الأرغان في الغالب كمرطب للبشرة والشعر لأنه غني   بالأحماض الدهنية،   
+           حيث أن هذه المواد تشحم عمود الشعر وتُساعد في الحفاظ على
+                  رطوبته.  و يوفر طبقة دهنية للشعر وفروة الرأس ويزيد من لمعان الشعر.
+                </p>
+              </div>
+            </li>
+            <li class="fourth__item bolt-slider__item">
               <img alt="ingredient" src="img/fourth-item-1.png" />
               <div>
                 <p class="fourth__item-title">زيت جوز الهند</p>
+
                 <p class="fourth__item-text" style="direction: rtl; line-height: 1.5">
                   يبطئ شيخوخة بصيلات الشعر ،
                   <span class="bold"> يمنع تساقط الشعر </span>
@@ -425,8 +438,8 @@
           </div>
           <div class="qst_para">
             <p>
-              ✅Pour le mode d’emploi : 
-              <br/>
+              ✅Pour le mode d’emploi :
+              <br />
               Atbday b un bain d’huile de 🚨 1h max avec un massage circulaire bach zit tdkhol les racines apres tu le
               lave avec le shampooing ou nchfi ch3rk chwiya ou diri la crème de soin apres nchfih 🥰 awla khelih inchaf
               a l’air libre 💝
@@ -608,9 +621,17 @@
           <div class="swiper mySwiperQ">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
+
                 <div class="eassh">
                   <div>
                     <img src="./img/qst_images/q-1.jpg" width="300px" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="eassh">
+                  <div>
+                    <img src="./img/qst_images/a.jpg" width="300px" />
                   </div>
                 </div>
               </div>
@@ -937,7 +958,8 @@
         <div class="eleventh__content">
           <div class="prod-block">
             <div class="header__block-label block-label" style="position: relative;z-index: 99;">
-              <img alt="label" src="img/label-green-2.png" /><img alt="label" src="img/label-green.png" />
+              <img alt="label" src="img/label-green-2.png" />
+              <img alt="label" src="img/label-green.png" />
             </div>
             <img alt="cone" class="header__prod-block-cone" src="img/cone.png" /><img alt="PACK ANTI-CHUTE"
               class="prod-block__prod" src="img/initialize.png" />
@@ -1046,24 +1068,24 @@
       },
     });
   </script>
-    <script>
-      var swiper = new Swiper(".mySwiperInsta", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 0,
-          modifier: 1,
-          slideShadows: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
+  <script>
+    var swiper = new Swiper(".mySwiperInsta", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
   <script type='text/javascript'>
     var deltaDate = new Date();
     const hours = deltaDate.getHours();
